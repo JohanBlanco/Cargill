@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>275</x>
+      <y>264</y>
+      <w>209</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>Client
+-
+- ClientID : int
+- ClientName: string
+- ClientType : string
+- ClientSize : string
+- ClientSince : date
+- IsCreditWorthy : boolean
+- IsDealer : boolean
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>561</x>
+      <y>264</y>
+      <w>121</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Country
+-
+- CountryID : int
+- Name : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>297</x>
+      <y>506</y>
+      <w>154</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Address
+-
+- Address1 : string
+- Address2 : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>473</x>
+      <y>297</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=0
+m1=1</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>363</x>
+      <y>418</y>
+      <w>44</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=0
+m1=1</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>506</y>
+      <w>154</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Location
+-
+- PostCode : string
+- OuterCode : string
+- Region : string
+- Town : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>517</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=0
+m1=1</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>33</x>
+      <y>418</y>
+      <w>110</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Car
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>264</y>
+      <w>121</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Vehicle
+-
+- ID : int
+- Brand : string
+- Color : string
+- ModelYear: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>77</x>
+      <y>363</y>
+      <w>165</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;80.0;30.0;130.0;30.0;130.0;50.0;130.0;30.0;10.0;30.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>154</x>
+      <y>418</y>
+      <w>110</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Motorcycle
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>176</y>
+      <w>110</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Sale
+-
+- ID : int
+- Date: date</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>319</x>
+      <y>187</y>
+      <w>88</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=0
+m1=1</panel_attributes>
+    <additional_attributes>50.0;70.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>154</x>
+      <y>187</y>
+      <w>88</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=0
+m1=1</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+</diagram>
